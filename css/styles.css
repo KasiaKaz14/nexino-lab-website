@@ -1,0 +1,42 @@
+.nav {
+  height: 50px;
+  background-color: rgb(12, 12, 52);
+}
+
+.nav section {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+}
+
+.nav ul {
+  position: absolute;
+  right: 15px;
+}
+
+.nav ul li {
+  display: inline-block;
+}
+
+.nav ul li a {
+  color: white;
+  padding: 5px;
+}
+
+.home {
+  background: url(../images/sunset.jpg);
+  background-size: cover;
+  height: 700px;
+}
+
+.home .text-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  color: white;
+}
