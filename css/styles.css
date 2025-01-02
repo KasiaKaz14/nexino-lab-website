@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .nav {
   height: 50px;
   background-color: rgb(12, 12, 52);
@@ -26,7 +30,8 @@
   padding: 5px;
 }
 
-.home {
+.home,
+.about {
   background: url(../images/sunset.jpg);
   background-size: cover;
   height: 700px;
@@ -39,4 +44,19 @@
   justify-content: center;
   height: 400px;
   color: white;
+}
+
+.about .about-content {
+  margin: 150px auto 0 auto;
+  width: 500px;
+  color: white;
+}
+
+.about .about-content h1 {
+  text-align: center;
+}
+
+.about .about-content p {
+  text-align: justify;
+  font-family: "Lato", sans-serif;
 }
