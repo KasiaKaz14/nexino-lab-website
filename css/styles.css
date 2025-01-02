@@ -1,7 +1,3 @@
-body {
-  font-family: "Roboto", sans-serif;
-}
-
 .nav {
   height: 50px;
   background-color: rgb(12, 12, 52);
@@ -31,7 +27,9 @@ body {
 }
 
 .home,
-.about {
+.about,
+.services,
+.contact {
   background: url(../images/sunset.jpg);
   background-size: cover;
   height: 700px;
@@ -42,8 +40,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 400px;
+  height: 300px;
   color: white;
+}
+
+.home .text-container h1 {
+  margin: 250px auto 0 auto;
+  font-size: 35px;
 }
 
 .about .about-content {
@@ -54,9 +57,53 @@ body {
 
 .about .about-content h1 {
   text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
 }
 
 .about .about-content p {
   text-align: justify;
   font-family: "Lato", sans-serif;
+}
+
+.services .services-content {
+  margin: 80px auto 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.services .services-content h1,
+.contact .contact-content h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+}
+
+.services-content .card-container ul {
+  padding: 0;
+}
+
+.services-content .card-container ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+  width: 300px;
+}
+
+.services-content .card-container ul li p {
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+}
+
+.contact .contact-content {
+  margin: 140px auto 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.contact .contact-content .address-holder {
+  font-family: "Lato", sans-serif;
+}
+
+.contact-content .address-holder address {
+  list-style: none;
 }
